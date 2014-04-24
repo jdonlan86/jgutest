@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style type="text/css">
+    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+    .standard:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+    .standard { display: inline-block; }
+   
+    * html .standard { height: 1%; }
+    .standard { display: block; }
+ 
+
+    html, body{
+      background: gray;
+      font-family: Helvetica, arial, sans-serif;
+    }
+
+    body { font-size: 70%; }
+
+    .wrapper {
+
+      background: #fff;
+      width: 320px;
+      padding: 10px;
+      margin: 10px auto;
+      font-size: 1.1rem;
+      line-height: 153%;
+      border-radius: 3px;
+    }
+   .primary-h1 {
+      font-size: 2.2rem;
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .content-h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .content {
+      margin: 2em 0;
+    }
+    
+    .text {
+      margin-bottom: 1rem;
+    }
+
+    .caption {
+      font-size: 1.2rem;
+      color: #888;
+      text-align: center;
+    }
+
+    .examples {
+      margin-bottom: 1rem;
+    }
+    .topper{
+   text-align: center;
+    }
+    img {
+      max-width: 100%;
+    }
+
+    @media only screen and (min-width: 480px) {
+      .wrapper {
+        width: 460px;
+        font-size: 1.4rem;
+      }
+     
+    }
+
+    @media only screen and (min-width: 768px) {
+      .wrapper {
+        width: 748px;
+      }
+
+      .examples{
+        float: right;
+        width: 32%;
+        margin-left: 5%;
+        padding: 2%;
+        background: black;
+      }
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .wrapper {
+        width: 1004px;
+      }
+
+      .examples {
+        width: 42%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div id="wrapper" class="wrapper">
+  <section>
+    <header><h1 class="primary-h1">The Awkward Standard Program</h1></header>
+    <article class="content standard">
+      <img class="examples"src="1.jpg" align="center" alt="logo" />
+      <p class="text">
+     Let&rsquo;s face it&mdash;your life sucks.  You wake up in the morning in one of three ways: With your beautiful lover, with a beautiful stranger, or alone by choice. Instead of crawling out of bed, you hit the floor with a spring in your step and a twinkle in your eye as you head to the bathroom. You take a tooth brush to those pearly whites of yours before disrobing for your shower. You can&rsquo;t help but to notice the impressive physical condition of your body as you soap up and rinse. Next you get dressed quickly and easily&mdash;your full head of hair only takes seconds to fall into movie-star shape and your closet is stocked with only the finest in men&rsquo;s style. After a clean, healthy breakfast you make one more stop at the mirror to admire the fine human specimen that is you. Finally, you give yourself that confident, sporting grin as you tell yourself, &ldquo;This is going to be a great day.&rdquo;  Sound familiar? It should, because that is what you are: the prototype confident male.  And it&rsquo;s killing you!  We understand how you feel. We understand the pain.   We understand how every time you watch another helpless man get turned down by a beautiful girl you get that sharp pang of jealousy deep in your chest.   We understand how every time you watch one of your mistake-prone co-workers sweat and blush mercilessly under the heavy reprimand of a superior, you yourself turn deep red with a massive blush of envy.
+      </p>
+    </article>
+    <article class="content standard">
+      <header class="content-header">
+        <h1 class="content-h1">Our Mission</h1>
+      </header>
+
+      <figure class="examples">
+        <img src="3.jpeg" alt="cool" />
+        <figcaption class="caption">This is you now Yuck!.</figcaption>
+      </figure>
+
+      <p class="text">
+      We understand how every effortless, graceful move you make in social settings tears you up inside; how every crowd-pleasing, home run joke you intuitively deliver at Saturday night parties makes you feel like crying; and how every whiplash-inducing turn of the head you cause when passing by the perfectly formed gym bunnies at your nearby fitness center makes you feel weak and nauseous with shame.  We understand all of this.   But there is hope.  We can help you. You can get your life back!  There are millions of men around the country who secretly feel just like you, and our program has helped these men introduce the one element in their life that they have always been missing:  Awkwardness.  Yes, believe it or not, you can become an awkward man. By utilizing and applying the methods provided in The Awkward Standard for the Confident Male, you will be able to develop the skill and potential for pure, life-changing awkwardness that you always assumed was a trait one must be born with. Perhaps that was true once, but through years of tedious first-hand research and testimony, we have uncovered the secrets to mastering this one-of-a-kind talent and we are now offering it to you. 
+      </p>
+
+      <figure class="examples">
+        <img src="2.jpeg" alt="Nerds" />
+        <figcaption class="caption">Your Ideal Self Image</figcaption>
+      </figure>
+       <header class="content-header">
+        <h1 class="content-h1">In Conclusion</h1>
+      </header>
+         <p class="text">
+      We have done the hard part, now you can reap the benefits!  With this book, as well as our cutting edge website theawkwardstandard.com, you will be able to uncover a detailed, full-immersion guide to awkwardness. This text is divide into chapters to unveil how easily and simply awkwardness can be incorporated into specific facets of your life. Topics include public places, the workplace, parties, dating, relationships, as well as various other tips and tricks that can be used on a personal level. For instance, did you know that farting around a girl can end a conversation quicker than politely excusing yourself? And moreover, taking credit for it or making a funny joke about it can actually be worse than either passing the blame or holding your nose while silently pointing at the girl.   Do not feel overwhelmed. This is a learning process, it will take time!  Some of this may be surprising to you at first, but you will come to realize that awkwardness is within your grasp and will come to you much quicker than you ever imagined 
+      </p>
+    </article>
+  </section>
+</div>
+
+</body>
+</html>
