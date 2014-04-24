@@ -1,0 +1,2351 @@
+
+@import url('http://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+   
+}
+
+body { background-color: #f3f4f4 }
+
+
+
+
+
+/*-------------------------------------css reset ^ above-------------------------------------------*/
+
+/*-------------------------------------------------------------------------- Template styling --------------------------------------------------------------*/
+
+
+.slide2{
+    float: right;
+    margin-top: 5px;
+    margin-right: 22px;
+}
+
+.maincontainer {
+    width: 950px;
+    height: 960px;
+    overflow: hidden;
+    margin: 0px auto;
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(51, 50, 50, 0.44);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(51, 50, 50, 0.44);
+    box-shadow: -1px 0px 5px 0px rgba(51, 50, 50, 0.44);
+}
+
+.left {
+    position: absolute;
+    z-index: 3;
+    width: 350px;
+    height: 145px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 3px solid #273c89;
+    z-index: 10;
+}
+
+.header {
+    height: 87px;
+    width: 950px;
+    background-color: #273c89;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    margin-top: 0px;
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.aboutjgu {
+    width: 950px;
+    height: 850px;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+}
+
+.leftjgu { float: left }
+
+
+.signin {
+float: right;
+margin-right: 23px;
+color: white;
+font-size: 13px;
+margin-top: 24px;
+font-family: 'Quattrocento Sans', sans-serif;
+
+}
+.signina {
+  color: white;
+text-decoration: none;
+float: left;
+border-bottom: 1px solid #ccc;
+text-align: center;
+padding-bottom: 3px;
+width: 54px;
+font-size: 15px;
+}
+
+.registerin {
+      color: white;
+    text-decoration: none;
+    float: left;
+    clear: both;
+    padding-top: 3px;
+    font-size: 15px;
+    width: 47px;
+    text-align: center;
+}
+
+.signina:hover { color: grey }
+.registerin:hover {color: grey}
+.bannerad {
+   float: right;
+margin-right: 19px;
+margin-top: 4px;
+box-shadow: 5px 5px 2px black;
+}
+
+.or { color: gray }
+
+
+
+/* -----------------------------------------------------------------------Navigation--------------------------------------------------------------------------- */
+
+.jgunavigation {
+    float: left;
+    clear: both;
+    list-style: none;
+    margin-top: 185px;
+    margin-left: 100px;
+    height: 221px;
+}
+.home {
+    width: 177px;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+.tournaments {
+    width: 177px;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+.news {
+    width: 177px;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+.coaches {
+    width: 177px;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+.parents {
+    width: 177px;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+.about {
+    width: 177px;
+    height: 35px;
+}
+.jgunavigation li a {
+    text-decoration: none;
+    color: #273c89;
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding-left: 10px;
+    line-height: 35px;
+    font-size: 20px;
+    border-left: 4px solid transparent;
+    -webkit-transition : border 100ms ease-out;
+    -moz-transition : border 100ms ease-out;
+    -o-transition : border 100ms ease-out;
+}
+.jgunavigation li a:hover { border-left: 4px solid #b71f35 }
+.jgunavigation li .active { border-left: 4px solid #b71f35 }
+
+/* ----------------------------------------------------------------footer and it's content----------------------------------------------------------------- */
+
+
+
+
+.footer {
+    float: left;
+    height: 130px;
+    width: 950px;
+    background-color: #273c89;
+    clear: both;
+}
+.slibottom {
+    margin-right: -81px !important;
+    opacity: .7;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(15%, transparent), to(rgba(255,255,255,0.2)));
+    box-reflect: below 0px gradient(linear, left top, left bottom, from(transparent), color-stop(15%, transparent), to(rgba(255,255,255,0.2)));
+}
+.slibottom:hover { opacity: 1 }
+.sponsers {
+    margin: 10px auto;
+    width: 946px;
+}
+.legal {
+    margin-top: -78px;
+    margin-left: 392px;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 12px;
+}
+
+/*------------------------------------------------------------end of template styling ------------------------------------------*/
+
+
+/*------------------------------------------------------------ home page styling------------------------------------------------*/
+
+.mission {
+    float: left;
+    margin-top: 25px;
+    width: 520px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.mission p {
+    margin-top: 10px;
+    line-height: 25px;
+    color: #002c8f;
+}
+.newsfeed {
+    float: left;
+    clear: left;
+    margin-left: 75px;
+    margin-top: 5px;
+    height: 420px !important;
+}
+.follow {
+    font-size: 22px;
+    color: #b71f35;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 15px;
+}
+
+.jguhead {
+    font-size: 22px;
+    color: #b71f35;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+}
+.missionhead {
+    font-size: 22px;
+    color: #b71f35;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.piccell1 {
+    float: left;
+    width: 163px;
+    height: 300px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+.piccell {
+    float: left;
+    width: 163px;
+    height: 300px;
+    background-color: transparent;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.piccell p {
+    float: left;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 20px;
+    color: #002c8f;
+}
+.piccell1 p {
+    float: left;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #002c8f;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.thumbnail {
+    width: 160px;
+    float: left;
+    background-color: black;
+    height: 110px;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 4px 5px 0px rgba(51, 50, 50, 0.44);
+    -moz-box-shadow: 5px 4px 5px 0px rgba(51, 50, 50, 0.44);
+    box-shadow: 5px 4px 5px 0px rgba(51, 50, 50, 0.44);
+}
+.redword {
+    color: #b71f35;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.rightjguindex {
+    width: 500px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------Coaches page----------------------------------------------------------------- */
+.coacheslogin {
+    width: 520px;
+    height: 290px;
+    border: 2px solid #D3D3D3;
+    background-color: white;
+    margin-top: 38px;
+    margin-left: 32px;
+    -webkit-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    border-radius: 25px;
+}
+.rightjgu {
+background-image: url("../images/wavy.png");
+background-repeat: no-repeat;
+width: 595px;
+height: 850px;
+background-position: -22px 22px;
+margin-left: 25px;
+float: left;
+}
+
+
+.rightjgulogged {
+background-image: url("../images/wavewithout.jpg");
+background-repeat: no-repeat;
+width: 595px;
+height: 850px;
+background-position: -22px 22px;
+margin-left: 25px;
+float: left;
+}
+
+
+
+.aboutjgulogin {
+font-size: 24px;
+font-family: 'Quattrocento Sans', sans-serif;
+float: left;
+border-bottom: 2px solid #D3D3D3;
+width: 305px;
+margin-top: 25px;
+margin-left: 7px;
+text-align: center;
+padding-bottom: 10px;
+color: #273c89;
+}
+
+.userid {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    border-radius: 10px;
+    height: 25px;
+    float: left;
+    margin-top: 25px;
+    width: 170px;
+    margin-left: 8px;
+    font-size: 17px;
+}
+.password {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    border-radius: 10px;
+    height: 25px;
+    float: left;
+    margin-top: 43px;
+    margin-left: 8px;
+    width: 170px;
+    font-size: 17px;
+}
+.email {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    border-radius: 10px;
+    height: 25px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 8px;
+    width: 170px;
+    font-size: 17px;
+}
+.code {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    border-radius: 10px;
+    height: 25px;
+    float: left;
+    margin-top: 44px;
+    margin-left: 8px;
+    width: 170px;
+    font-size: 17px;
+}
+.useridla {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    float: left;
+    clear: right;
+    margin-left: 35px;
+    margin-top: 28px;
+    font-size: 22px;
+}
+.passwordla {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    float: left;
+    clear: both;
+    margin-left: 12px;
+    margin-top: 27px;
+    font-size: 22px;
+}
+.rightcell {
+    float: right;
+    width: 200px;
+    height: 290px;
+    border-left: 2px solid #D3D3D3;
+    background-image: url("../images/logoredo2sm.png");
+    background-repeat: no-repeat;
+    background-position: 15px 90px;
+}
+.leftcell {
+    float: left;
+    width: 311px;
+    height: 280px;
+}
+.createanaccount {
+    font-size: 20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-top: 29px;
+    border-bottom: 2px solid #D3D3D3;
+    padding-bottom: 10px;
+    width: 175px;
+    margin-left: 12px;
+    text-align: center;
+    color: #273c89;
+}
+.radiobutton {
+    float: left;
+    clear: both;
+    margin-top: 11px;
+    margin-left: 132px;
+}
+.loweroptions {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 15px;
+    float: right;
+    clear: both;
+    color: #273c89;
+    margin-top: -18px;
+    margin-right: 55px;
+    border-top: transparent !important;
+}
+.rightcell p {
+    margin-top: 23px;
+    margin-left: 23px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 15px;
+    width: 170px;
+    line-height: 24px;
+    color: #273c89;
+}
+.coachestitle {
+ 
+   font-family: 'Quattrocento Sans', sans-serif;
+font-size: 45px;
+margin-left: 206px;
+margin-top: 227px;
+color: #a52b36;
+}
+.loginbutton {
+    background-image: url("../images/tournamentloginbutton.png");
+    float: right;
+    width: 100px;
+    height: 33px;
+    margin-top: -10px;
+    margin-right: 10px;
+    background-position: 0px 33px;
+}
+.loginbutton:hover {
+    background-position: 0px -4px;
+    cursor: pointer;
+    cursor: hand;
+}
+.forgotpassword {
+    color: #273c89;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    float: left;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+.forgotpassword:hover {
+    cursor: pointer;
+    cursor: hand;
+    color: grey;
+    cursor: pointer;
+    cursor: hand;
+}
+.forgotuserid {
+    color: #273c89;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    float: left;
+    clear: left;
+    line-height: 22px;
+    margin-left: 30px;
+}
+.needregister {
+    color: #273c89;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    float: left;
+    clear: left;
+    line-height: 22px;
+    margin-left: 30px;
+}
+.needregister:hover {
+    cursor: pointer;
+    cursor: hand;
+    color: grey;
+}
+.forgotuserid:hover {
+    cursor: pointer;
+    cursor: hand;
+    color: grey;
+}
+.createaccountbutton {
+    float: left;
+    margin-left: 15px;
+    margin-top: 26px;
+    background-image: url("../images/registerbutton.png");
+    width: 170px;
+    height: 33px;
+    background-position: 0px 33px;
+}
+.createaccountbutton:hover {
+    background-position: 0px 0px;
+    cursor: pointer;
+    cursor: hand;
+}
+.registrationcodebox {
+    width: 520px;
+    height: 290px;
+    border: 2px solid #D3D3D3;
+    background-color: white;
+    margin-top: 38px;
+    margin-left: 32px;
+    -webkit-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    border-radius: 25px;
+    display: none;
+}
+.forgetpasswordbox {
+    width: 520px;
+    height: 290px;
+    border: 2px solid #D3D3D3;
+    background-color: white;
+    margin-top: 38px;
+    margin-left: 32px;
+    -webkit-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    border-radius: 25px;
+    display: none;
+}
+.forgetuseridbox {
+    width: 520px;
+    height: 290px;
+    border: 2px solid #D3D3D3;
+    background-color: white;
+    margin-top: 38px;
+    margin-left: 32px;
+    -webkit-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    border-radius: 25px;
+    display: none;
+}
+.registrationform {
+    width: 520px;
+    height: 290px;
+    border: 2px solid #D3D3D3;
+    background-color: white;
+    margin-top: 38px;
+    margin-left: 32px;
+    -webkit-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.46);
+    border-radius: 25px;
+    display: none;
+}
+.xbox,
+.xboxr,
+.xboxu,
+.xboxrf {
+    float: right;
+    margin-right: 19px;
+    margin-top: 18px;
+    height: 35px;
+    width: 35px;
+    background-image: url("../images/xbox.png");
+    background-position: 0px 0px;
+}
+.xbox:hover,
+.xboxr:hover,
+.xboxu:hover,
+.xboxrf:hover {
+    background-position: 0px -36px;
+    cursor: pointer;
+    cursor: hand;
+}
+.useridpass {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    float: left;
+    clear: both;
+    margin-left: 37px;
+    margin-top: 27px;
+    font-size: 22px;
+}
+.emailpass {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    float: left;
+    clear: both;
+    margin-left: 50px;
+    margin-top: 45px;
+    font-size: 22px;
+}
+
+
+.emailpasstwo {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    float: left;
+    clear: both;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 22px;
+}
+
+.regcodelabel {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    float: left;
+    clear: both;
+    margin-left: 27px;
+    margin-top: 45px;
+    font-size: 22px;
+}
+.forgotpasswordheader {
+    font-size: 23px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 35px;
+    margin-top: 39px;
+    color: #002c8f;
+}
+.forgotpasswordheader span { color: #b60f32 }
+.forgetpasswordbox p {
+    font-size: 14px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 450px;
+    line-height: 17px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: #002c8f;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.secondtiersubmit{
+    float: right;
+    margin-right: 50px;
+    margin-top: 22px;
+    background-image: url("../images/submitcoachesform.png");
+    background-repeat: no-repeat;
+    background-position: 0px -39px;
+    height: 35px;
+    width: 117px;
+
+}
+.secondtiersubmituser {
+    float: right;
+    margin-right: 56px;
+    margin-top: 41px;
+    background-image: url("../images/submitcoachesform.png");
+    background-repeat: no-repeat;
+    background-position: 0px -39px;
+    height: 35px;
+    width: 117px;
+}
+.secondtiersubmituser:hover,
+.secondtiersubmit:hover {
+    background-position: 0px -3px;
+    cursor: pointer;
+    cursor: hand;
+}
+.secondtiersubmitregform {
+    float: right;
+    margin-right: 203px;
+    margin-top: 13px;
+    background-image: url("../images/submitcoachesform.png");
+    background-repeat: no-repeat;
+    background-position: 0px -39px;
+    height: 35px;
+    width: 117px;
+}
+.secondtiersubmitregform:hover {
+    background-position: 0px -3px;
+    cursor: pointer;
+    cursor: hand;
+}
+.secondtiersubmituserreg {
+    float: right;
+    margin-right: 0px;
+    margin-top: 43px;
+    background-image: url("../images/submitcoachesformreg.png");
+    background-repeat: no-repeat;
+    background-position: 0px -39px;
+    height: 35px;
+    width: 117px;
+}
+.secondtiersubmituserreg:hover {
+    background-position: 0px -3px;
+    cursor: pointer;
+    cursor: hand;
+}
+.forgotuseridheader {
+    font-size: 23px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 35px;
+    margin-top: 59px;
+    color: #002c8f;
+}
+.forgotuseridheader span { color: #b60f32 }
+.inforequestheader {
+    font-size: 23px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 57px;
+    padding-bottom: 5px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #002c8f;
+    border-bottom: 1px solid #ccc;
+    width: 400px;
+    text-align: center;
+}
+.forgetuseridbox p {
+float: left;
+font-size: 14px;
+line-height: 17px;
+font-family: 'Quattrocento Sans', sans-serif;
+width: 450px;
+margin-left: 35px;
+margin-top: 10px;
+color: #002c8f;
+border-bottom: 1px solid #ccc;
+padding-bottom: 18px;
+}
+.registrationform p {
+    font-size: 14px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 450px;
+    color: #002c8f;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    text-align: center;
+}
+.registrationheader {
+  font-size: 23px;
+font-family: 'Quattrocento Sans', sans-serif;
+margin-left: 30px;
+width: 458px;
+margin-top: 68px;
+color: #002c8f;
+
+}
+.registrationheader span { color: #b60f32 }
+.registrationcodebox p {
+    float: left;
+    font-size: 16px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 450px;
+    margin-left: 28px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    color: #002c8f;
+    border-bottom: 1px solid gray;
+}
+.inforeqlabel {
+    font-family: 'Quattrocento Sans', sans-serif;
+    float: left;
+    color: #002c8f;
+    clear: left;
+    margin-top: 15px;
+    text-align: right;
+    width: 90px;
+    margin-right: 5px;
+}
+.inforeqlabel2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    float: left;
+    color: #002c8f;
+    clear: left;
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: right;
+    width: 119px;
+}
+.inforeqinput {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    border-radius: 10px;
+    height: 25px;
+    float: left;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.inforeqinput2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    border-radius: 10px;
+    height: 25px;
+    float: left;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.regcell {
+    width: 239px;
+    float: left;
+    margin-left: 12px;
+}
+.regcell2 {
+    width: 250px;
+    float: left;
+}
+.regbox {
+    width: 521px;
+    height: 133px;
+    background-color: #E6E8FA;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.44);
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.44);
+}
+/* -------------------------------------------------------------End of Coaches Page-------------------------------------------------------*/
+
+
+/* -------------------------------------------------------------- Coaches page after logged in -------------------------------------------*/
+
+
+.whitebottomframe{
+margin-top: 10px;
+margin-left: 5px;
+width: 577px;
+height: 399px;
+float: left;
+border-top: 2px solid white;
+background-color: white;
+overflow: auto;
+display: block;
+}
+
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #c97932;
+    margin: 25px auto;
+    display: none;
+    float: left;
+}
+
+.bottomframenav{
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.bottomframenav li{
+    display: inline;
+    color: white;
+    margin-left: 56px;
+    font-size: 17px;
+    font-family: arial;
+}
+
+
+
+
+
+.openacc{
+background: url("../images/bluearrow.png");
+background-repeat: no-repeat;
+background-position: 0px -25px;
+position: relative;
+top: 72px;
+left: 503px;
+padding-left: 40px;
+vertical-align: bottom;
+}
+
+
+
+.closedacc{
+    background: url("../images/bluearrow.png");
+background-repeat: no-repeat;
+background-position: 0px -3px;
+position: relative;
+top: 72px;
+left: 503px;
+padding-left: 40px;
+vertical-align: bottom;
+}
+
+
+.bottomframe{
+width: 588px;
+height: 451px;
+background-color: #b60f32;
+float: left;
+margin-top: 25px;
+margin-left: 2px;
+border-radius: 2px;
+
+}
+    .non-semantic-protector { position: relative; z-index: 1; }
+.seasonselector{
+width: 453px;
+height: 150px;
+border: 10px solid #b60f32;
+background-color: #ffffff;
+float: left;
+margin-top: 154px;
+margin-left: 61px;
+border-radius: 2px;
+}
+
+
+.ribbon {
+font-size: 26px !important;
+width: 439px;
+position: relative;
+background: #003595;
+height: 25px;
+color: #fff;
+padding: 37px;
+margin-left: -30px;
+margin-top: 26px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+font-family: 'Quattrocento Sans', sans-serif;
+
+}
+
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+
+ border-color: #193566 transparent transparent transparent;
+ bottom: -.78em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: .8em 0 0 .8em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width:.8em .8em 0 0;
+}
+
+
+.whitebottomframe2{
+    margin-top: 10px;
+margin-left: 5px;
+width: 578px;
+height: 399px;
+float: left;
+background-color: white;
+display: none;
+border-top: 2px solid white;
+overflow-y:auto;
+overflow-x: hidden;
+}
+
+
+
+
+
+.whitebottomframe3{
+    margin-top: 10px;
+    border-radius: 2px;
+margin-left: 5px;
+width: 578px;
+height: 399px;
+float: left;
+background-color: white;
+display: none;
+border-top: 2px solid white;
+}
+
+
+
+.whitebottomframe4{
+    margin-top: 4px;
+    border-radius: 2px;
+margin-left: 5px;
+width: 578px;
+height: 440px;
+float: left;
+background-color: white;
+border-top: 2px solid white;
+}
+
+.symbolarrow{
+    position: absolute;
+    margin-top: -9px;
+    margin-left: 60px;
+    
+}
+
+.symbolarrow2{
+    position: absolute;
+    margin-top: -9px;
+    margin-left: 205px;
+
+}
+.symbolarrow3{
+    position: absolute;
+    margin-top: -9px;
+    margin-left: 350px;
+
+}
+
+.bottomframenav li:hover .symbolarrow{
+opacity: 1;
+} 
+
+
+
+.teammanagement:hover {
+    cursor: pointer;
+    cursor: hand;
+    color: #ccc;
+    
+}
+
+
+.schedule:hover{
+      cursor: pointer;
+    cursor: hand;
+    color: #ccc;
+}
+
+
+.rulesregulations:hover{
+    cursor: pointer;
+    cursor: hand;
+    color: #ccc;
+}
+
+
+
+
+.high{
+    content: url(../images/triangle.png); /* no need for qoutes */
+    display: block;
+    position: absolute;
+    left: 55px; /* change this value to one that suits you */
+    top: 15px; /* change this value to one that suits you */
+}
+
+
+
+.dropdownteamselector{
+    float: right;
+    margin-top: 5px;
+}
+.thead{
+    background-color: #ba575f;
+    font-size: 15px;
+    color: #ffffff;
+
+}
+
+.thead td { 
+    width: 130px;
+    height: 25px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white
+
+}
+.tablewhitebottomframe{
+    margin-top: 5px;
+    width: 544px;
+    margin-left: 13px;
+}
+
+.specifics{
+    background-color: #e0e1e2;
+    color: #b60f32;
+    text-align: center;
+    font-size: 13px;
+    height: 25px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.specificso{
+    background-color: #ccc;
+    color: #b60f32;
+    text-align: center;
+    font-size: 13px;
+    height: 25px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.coachestabletitle{
+    background-color: #b60f32 !important;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #b60f32;
+}
+
+
+.triangle{
+  
+position: absolute;
+margin-left: 103px;
+margin-top: -12px;
+}
+
+
+
+
+.triangle2{
+    position: absolute;
+margin-left: 269px;
+margin-top: -12px;
+}
+
+.triangle3{
+    position: absolute;
+margin-left: 440px;
+margin-top: -12px;
+
+}
+
+.pdfholder{
+    margin-top: 5px;
+}
+
+.pdfseperator{
+    border-bottom: 3px solid #b60f32;
+    width: 578px;
+    height: 163px;
+    margin-bottom: 8px;
+background: #ffffff; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2UxZTFlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNmY2ZjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 66%, #e1e1e1 70%, #f6f6f6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(66%,#f1f1f1), color-stop(70%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 66%,#e1e1e1 70%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 66%,#e1e1e1 70%,#f6f6f6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 66%,#e1e1e1 70%,#f6f6f6 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 66%,#e1e1e1 70%,#f6f6f6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-8 */
+
+
+
+
+}
+
+
+
+
+.pjiimportinfo{
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #b60f32;
+    margin-top: 15px;
+    border-bottom: 3px solid #b60f32;
+    padding-bottom: 13px;
+}
+
+.loggedpaceofplay{
+    float: left;
+    margin-left: 11px;
+    margin-top: 3px;
+    height: 113px;
+    width: 125px;
+    background-position: 14px -128px;
+    background-image: url('../images/spectatorpolicy.png');
+    background-repeat: no-repeat;
+        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+    box-reflect: below 0px gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+}
+
+
+.loggedpaceofplay:hover{
+    background-position: 14px 16px;
+}
+
+.loggedfigtag{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #002c8f;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.loggedpaceofplay:hover > .loggedfigtag{
+    color: #ba575f;
+}
+
+
+
+.loggedplayerresponsibility{
+
+float: left;
+background-position: 18px -128px;
+margin-left: 15px;
+margin-top: 3px;
+height: 113px;
+width: 137px;
+background-image: url('../images/spectatorpolicy.png');
+background-repeat: no-repeat;
+-webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+box-reflect: below 1px gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0)));
+  
+}
+
+.loggedplayerresponsibility:hover{
+    background-position: 18px 16px;
+}
+
+.loggedplayerresponsibility:hover > .loggedfigtag{
+    color: #ba575f;
+}
+
+
+.loggedpjifaq{
+  float: left;
+    background-position: 3px -128px;
+    margin-left:28px;
+    margin-right: 18px;
+    margin-top: 3px;
+    height: 113px;
+    width: 101px;
+    background-image: url('../images/spectatorpolicy.png');
+    background-repeat: no-repeat;
+      -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+    box-reflect: below 1px gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+
+}
+
+
+.loggedpjifaq:hover{
+    background-position: 3px 16px;
+}
+
+
+.loggedpjifaq:hover > .loggedfigtag{
+       color: #ba575f;
+}
+
+.loggedspectatorpolicy{
+    float: left;
+background-position: 18px -128px;
+    margin-left:15px;
+    margin-top: 3px;
+    height: 113px;
+    width: 134px;
+    background-image: url('../images/spectatorpolicy.png');
+    background-repeat: no-repeat;
+      -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+    box-reflect: below 0px gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+
+}
+.loggedspectatorpolicy:hover{
+    background-position: 18px 16px;
+}
+
+.loggedspectatorpolicy:hover > .loggedfigtag{
+ color: #ba575f;
+}
+
+
+.loggedpjidetails{
+    
+    float: left;
+    margin-left:0px;
+    margin-top: 3px;
+    height: 113px;
+    width: 122px;
+    background-image: url('../images/spectatorpolicy.png');
+    background-repeat: no-repeat;
+      -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+    box-reflect: below 0px gradient(linear, left top, left bottom, from(transparent), color-stop(47%, transparent), to(rgba(255,255,255,0.2)));
+    background-position: 14px -128px;
+}
+
+
+.loggedpjidetails:hover{
+    background-position: 14px 16px;
+}
+
+.loggedpjidetails:hover > .loggedfigtag{
+ color: #ba575f;
+}
+
+
+.logoff{
+    font-size: 14px;
+    color: #b60f32;
+    float: right;
+    margin-right: 10px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-top:5px; 
+
+}
+
+
+.spacer{
+    font-size: 14px;
+    color: #b60f32;
+    float: right;
+    margin-right: 10px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-top: 5px;
+}
+
+
+
+.manage{
+    margin-top: 12px;
+    width: 550px;
+    height: 99px;
+    background-image: url('../images/manage.png');
+    margin-left: 13px;
+    overflow: hidden;
+}
+
+
+
+
+.teamtitletableinsert{
+
+font-family: 'Quattrocento Sans', sans-serif;
+float: left;
+color: white;
+width: 550px;
+margin-top: -11px;
+text-align: center;
+
+}
+
+
+
+.teamnameinsert{
+    float: left;
+    margin-left: 10px;
+    margin-top: 28px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #003595;
+}
+
+
+
+.managetableinsert{
+float: right;
+margin-right: 7px;
+margin-top: 10px;
+font-family: 'Quattrocento Sans', sans-serif;
+color: #003595;
+
+}
+
+
+.coachesnameinsert{
+
+float: left;
+margin-top: 18px;
+margin-left: 34px;
+font-family: 'Quattrocento Sans', sans-serif;
+color: #003595;
+}
+
+
+
+.assistantcoachinsert{
+float: left;
+margin-left: 60px;
+margin-top: 18px;
+font-family: 'Quattrocento Sans', sans-serif;
+color: #003595;
+
+}
+
+
+.dynamicteamname{
+float: left;
+margin-left: 15px;
+margin-top: 20px;
+width: 112px;
+text-align: left;
+font-family: 'Quattrocento Sans', sans-serif;
+color: #003595;
+
+
+
+}
+
+.dynamicheadcoach{
+float: right;
+margin-right: 2px;
+margin-top: 8px;
+font-family: 'Quattrocento Sans', sans-serif;
+width: 151px;
+text-align: center;
+color: #003595;
+
+
+
+}
+
+.dynamicassistantcoach{
+float: right;
+margin-right: 70px;
+margin-top: 8px;
+font-family: 'Quattrocento Sans', sans-serif;
+width: 151px;
+text-align: center;
+clear:right;
+color: #003595;
+
+
+}
+
+
+.scheduletabletitle{
+    background-color: #002c8f;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align:center; 
+    height: 45px;
+}
+
+.scheduletabletitle2nd{
+    background-color: #ba575f;
+    text-align: center;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    height: 30px;
+
+
+
+}
+
+
+.scheduletable{
+    margin-left: 7px;
+width: 550px;
+margin-top: 7px;
+border: 2px solid #b60f32;
+}
+
+.scheduleinstructions{
+    color: #002c8f;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+.hostingrules{
+    background-color: #ccc;
+    color: #b60f32;
+    height: 30px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/* ---------------------------------------------------------------- End of Coaches page after logged in ----------------------------------*/
+
+
+
+/*---------------------------------------------tournaments page---------------------------------------------------------------------------*/
+
+
+.yearstateseason{
+    margin-left: 25px;
+}
+
+
+
+.tournamenthead {
+    font-size: 37px;
+    color: #b71f35;
+    margin-bottom: 17px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 155px;
+    margin-top: 11px;
+}
+
+
+.thead {
+    background-color: #ba575f;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 5px !important;
+    height: 10px;
+}
+.upabove {
+    background-color: #cc999f;
+    color: #273c89;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 5px !important;
+    height: 10px;
+}
+.teamresultstable {
+ background-color: #e0e1e2;
+color: #b60f32;
+    width: 50px;
+    font-size: 13px;
+    padding-top: 2px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.teamnametable {
+    width: 257px;
+  background-color: #e0e1e2;
+color: #b60f32;
+    font-size: 13px;
+    padding: 5px !important;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+}
+
+.theader{
+    background-color: #b60f32;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    height: 25px;
+    font-size: 15px;
+}
+
+
+.tresultstag {
+width: 490px;
+height: 20px;
+background-color: white;
+border: 1px solid grey;
+font-family: 'Quattrocento Sans', sans-serif;
+margin-bottom: .1em;
+cursor: pointer;
+cursor: hand;
+color: #002c8f;
+padding-left: 20px;
+padding-top: 4px;
+font-size: 15px;
+
+
+}
+
+.dateinsert{
+color:#002c8f;
+font-family: 'Quattrocento Sans', sans-serif;
+text-align: left;
+float: right;
+width: 81px;
+height: 16px;
+border-left: 1px solid #273c89;
+padding-left: 20px;
+margin-right: 20px;
+}
+
+
+
+.tresultstagst {
+width: 511px;
+border: 1px solid grey;
+height: 23px;
+font-family: 'Quattrocento Sans', sans-serif;
+margin-bottom: .1em;
+cursor: pointer;
+cursor: hand;
+color: #ffffff;
+background-color: #273c89;
+text-align: center;
+padding-top: 5px;
+
+}
+
+
+
+.tresultstagst:hover{
+    opacity: .8;
+
+}
+
+.tresultstag:hover > .closedacc{
+   
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+.playername {
+    width: 170px;
+  background-color: #e0e1e2;
+color: #b60f32;
+    font-size: 13px;
+    padding: 5px !important;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+}
+
+
+.teamname{
+        width: 130px;
+  background-color: #e0e1e2;
+color: #b60f32;
+    font-size: 13px;
+    padding: 5px !important;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+
+}
+
+.teamnamestanding{
+       width: 288px;
+    background-color: #bec7e2;
+    color: #273c89;
+    font-size: 13px;
+    padding: 5px !important;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+
+}
+.rightjgutournament {
+width: 507px;
+float: left;
+margin-left: 33px;
+margin-top: 105px;
+}
+
+
+
+
+/*Tournament select*/
+.tournamentfilter {
+    width: 486px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding-top: 15px;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(39, 60, 137, 0.38);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(39, 60, 137, 0.38);
+    box-shadow: 0px 3px 2px 0px rgba(39, 60, 137, 0.38);
+}
+.years { margin-left: 30px }
+.tabs {
+    position: relative;
+    min-height: 200px;
+    width: 500px;
+    clear: both;
+    margin: 25px 0;
+}
+.tab { float: left }
+.tab label {
+    background: #eee;
+    color: #002c8f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 1px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    -webkit-transition : border 300ms ease-out;
+    -moz-transition : border 300ms ease-out;
+    -o-transition : border 300ms ease-out;
+}
+.tab label:hover { border-top: 2px solid #b71f35 }
+.tab [type=radio] { display: none }
+.content {
+float: left;
+left: 0;
+background: white;
+right: 0;
+bottom: 0;
+padding: 5px;
+/* border: 1px solid #ccc; */
+height: 663px;
+width: 545px;
+overflow-y: auto;
+overflow-x: hidden;
+background-image: url("../images/logoredo2.png");
+background-repeat: no-repeat;
+background-position: 85px 136px;
+}
+
+[type=radio]:checked ~ label {
+    background: white;
+    border-bottom: 1px solid white;
+    border-top: 2px solid z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content { z-index: 1 }
+.regionsaz,
+.regionsten,
+.regionsok { display: none }
+
+
+.tournamenticon {
+    margin-top: -4px;
+    margin-left: -24px;
+    padding-right: 10px;
+    -webkit-transition: -webkit-transform 0.1s ease-in;
+}
+.tournamenticond {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+}
+.tournamentcourse {
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.tournamentfilterhead {
+    font-size: 22px;
+    color: #b60f32;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 35px;
+    margin-top: 9px;
+}
+
+.closedacctourn{
+
+background: url("../images/bluearrow.png");
+background-repeat: no-repeat;
+background-position: 0px -3px;
+padding-top: 2px;
+padding-bottom: 16px;
+padding-left: 30px;
+padding-right: 10px;
+float: right;
+clear: both;
+
+}
+
+
+
+.openacctourn{
+background: url("../images/bluearrow.png");
+background-repeat: no-repeat;
+background-position: 0px -25px;
+float: right;
+clear: both;
+padding-top: 2px;
+padding-bottom: 16px;
+padding-left: 30px;
+padding-right: 10px;
+
+}
+
+.parentstag:hover > .closedacc {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.accordhidden {
+    width: 484px;
+    height: 300px;
+    background-color: white;
+}
+.accordhead {
+    width: 465px;
+    height: 45px;
+    line-height: 46px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #273c89;
+    margin-top: 2px;
+}
+.tourneyresults {
+    width: 530px;
+    height: 543px;
+    float: left;
+    margin-left: 16px;
+    overflow: auto;
+}
+/*Table formatting for tournaments page*/
+.tableheaderscore,
+.tableheaderpoints,
+.tableheader {
+    width: 50px;
+    text-align: center;
+}
+.tableheadertournament {
+    text-align: center;
+    width: 230px;
+}
+.tableheaderplayername {
+    text-align: center;
+    width: 140px;
+}
+.individualresults {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+}
+.playername { }
+.tournamentname { }
+.score { text-align: center }
+.points { text-align: center }
+
+.underneath td {
+    background-color: #bec7e2;
+    color: #273c89;
+    height: 45px;
+    font-size: 12px;
+}
+/* ----------------------------------------------------------------end of tournament page formatting--------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------ about page ----------------------------------------------------------------------------*/
+.rightjguabout {
+    width: 520px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+    background-image: url('../images/seal.png');
+    background-repeat: no-repeat;
+    background-position: 13px 120px;
+}
+.abouthistory {
+    width: 500px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 14px;
+    background-color: #F2F2F2;
+    color: #002c8f;
+    line-height: 18px;
+    padding: 13px;
+    opacity: .8;
+    float: left;
+    clear: both;
+    border-radius: 2px;
+}
+.abouthistory p { opacity: 1 }
+.abouthistoryhead {
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 524px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    color: #b71f35;
+    float: left;
+    font-size: 18px;
+    margin-top: -19px;
+}
+.aboutboard {
+    width: 500px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 14px;
+    background-color: #F2F2F2;
+    color: #002c8f;
+    line-height: 18px;
+    padding: 13px;
+    opacity: .8;
+    float: left;
+    border-radius: 2px;
+}
+.aboutboardhead {
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 524px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    color: #b71f35;
+    float: left;
+    font-size: 18px;
+}
+.aboutcommitteehead {
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 524px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    color: #b71f35;
+    float: left;
+    font-size: 18px;
+}
+.aboutcommittee {
+    width: 500px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 14px;
+    background-color: #F2F2F2;
+    color: #002c8f;
+    line-height: 18px;
+    padding: 13px;
+    opacity: .8;
+    float: left;
+    border-radius: 2px;
+}
+.about1 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 32px;
+    color: #b71f35;
+    float: left;
+    margin-left: 214px;
+    margin-top: -6px;
+}
+.aboutcomlist {
+    float: left;
+    clear: right;
+    width: 230px;
+    margin-left: 12px;
+}
+.aboutcomlist1 {
+    float: right;
+    width: 230px;
+}
+.titlename { color: #b60f32 }
+/*---------------------------------------------------------------------------end of about page----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------news page----------------------------------------------------------------------*/
+.newsframe {
+    width: 520px;
+    height: 318px;
+    margin-top: 14px;
+    overflow: auto;
+}
+.latestphotos {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 30px;
+    color: #a52b36;
+    border-bottom: 1px solid #ccc;
+    width: 510px;
+}
+.currentnews {
+    width: 350px;
+    height: 250px;
+    text-align: left !important;
+    margin-top: 100px;
+    border: 2px solid #ccc;
+    text-decoration: none;
+    list-style: none;
+}
+/* -----------------------------------------------------------------------------end of news page------------------------------------------------------------------*/
+
+
+
+/* --------------------------------------------------------------------------parents/players page-----------------------------------------------------------------*/
+
+
+.rightjguparentsandplayers {
+
+width: 507px;
+float: left;
+margin-left: 95px;
+margin-top: 98px;
+}
+
+.coverplayer {
+    width: 380px;
+    height: 230px;
+    margin-left: 55px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.coverplayer:hover{
+    cursor: pointer;
+    opacity: .9;
+}
+
+.jguvideo{
+    margin-top: 8px;
+    margin-left: 55px;
+    width: 380px;
+    height: 223px;
+}
+
+.parentstag{
+font-family: 'Quattrocento Sans', sans-serif;
+width: 440px;
+height: 23px;
+padding-top: .5em;
+padding-left: .6em;
+background-color: white;
+border: 1px solid grey;
+margin-bottom: .1em;
+cursor: pointer;
+cursor: hand;
+color: #002c8f;
+}
+.parentfaq{
+    margin-left: 17px;
+    margin-top: 5px;
+
+}
+
+.accordhiddenparents{
+    width: 430px;
+    background-color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.accordhiddenparents p{
+    color: #002c8f;
+    line-height: 19px;
+    margin: 0px;
+    padding-left: 2.2em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    font-size: .9em;
+}
+
+.formatlist{
+    margin-left: 3.4em;
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #002c8f;
+    width: 300px;
+    margin-top: 1em;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #FCFCFC;
+    border-left: 7px solid  #002c8f;
+    -webkit-box-shadow: inset -6px -6px 11px 0px rgba(232,232,232,1);
+    -moz-box-shadow: inset -6px -6px 11px 0px rgba(232,232,232,1);
+    box-shadow: inset -6px -6px 11px 0px rgba(232,232,232,1);
+}
+
+
+
+.formspdf{
+    width: 500px;
+    height: 50px;
+}
+
+.accordframe{
+ width: 484px;
+height: 293px;
+overflow: auto;
+margin-left: -3px;
+margin-top: 5px;
+padding-top: 9px;
+border: 1px solid #ccc;
+}
+
+
+.parentsandplayersheaderfaq{
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    border-bottom: 1px solid #ccc;
+    width: 480px;
+    color: #b71f35;
+    margin-bottom: 11px;
+}
+
+
+.parentsandplayersheader{
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    border-bottom: 1px solid #ccc;
+    width: 480px;
+    color: #b71f35;
+    margin-bottom: 2px;
+}
+
+
+.headertable{
+    position: relative;
+    margin-left: 54px;
+    margin-top: -20px;
+}
+.individualforms{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+.redpdf, .redpdf1, .redpdf2{
+    display: none;
+    float: left;
+
+}
+
+.bluepdf{
+    float: left;
+}
+
+
+.paceofplay{
+    width: 128px;
+    height: 70px;
+    margin-left: 23px;
+    margin-top: 7px;
+    background-image: url('../images/spectatorpolicy2.png');
+    background-repeat: no-repeat;
+    background-position: 30px -105px;
+    float: left;
+}
+
+.paceofplay:hover{
+    background-position: 30px -2px; 
+}
+
+
+.paceofplay:hover > .figtag{
+    color: #b60f32;
+}
+
+
+
+.playerresponsibility{
+    float: left;
+    width: 138px;
+    height: 70px;
+    margin-top: 7px;
+    margin-left: 15px;
+    background-image: url('../images/spectatorpolicy2.png');
+    background-position: 30px -105px;
+    background-repeat: no-repeat;
+
+}
+
+
+.playerresponsibility:hover{
+    background-position: 30px -2px; 
+}
+
+.playerresponsibility:hover > .figtag{
+    color: #b60f32;
+}
+
+
+.spectatorpolicy{
+    float: left;
+    width: 148px;
+    margin-left: 5px;
+    height: 70px;
+    margin-top: 7px;
+    background-image: url('../images/spectatorpolicy2.png');
+    background-position: 30px -105px;
+    background-repeat: no-repeat;
+
+}
+
+.spectatorpolicy:hover{
+    background-position: 30px -2px;
+}
+
+.spectatorpolicy:hover > .figtag{
+    color: #b60f32;
+}
+
+.parentsandplayerh1{
+    font-size: 28px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #b71f35;
+    margin-left: 128px;
+}
+
+.contactinfo{
+    font-size: 1em;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    margin-top: 2em;
+    width: 250px;
+    font-weight: 900;
+    margin-left: 6.8em;
+    color:#002c8f;
+    font-size: .9em;
+}
+
+
+.figtag{
+    margin-top: 57px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #002c8f;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+
+
+    
+.closedaccpar{
+background: url("../images/bluearrow.png");
+background-repeat: no-repeat;
+padding-top: 2px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 10px;
+float: right;
+clear: both;
+background-position: 0px -3px;
+
+
+}
+
+.openaccpar {
+ background: url("../images/bluearrow.png");
+background-repeat: no-repeat;
+padding-top: 2px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 10px;
+float: right;
+clear: both;
+background-position: 0px -25px;
+
+ 
+   
+}
+
+
+
+
+/* ---------------------------------------------------------------------------end of parents/players page--------------------------------------------------------------*/ 
+
+
+
+
